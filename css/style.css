@@ -72,26 +72,24 @@ nav img {
 
 .gender, .fa-regular {
     padding-right: 10px;
+    cursor: pointer;
 }
+
+/* Main-cards  */
 
 main {
     padding-top: 50px;
 }
 
 
-
-/* Main-cards  */
-
 .row {
     display: flex;
     gap: 20px;
-    
 }
 
 .col {
     min-height: 50px;
     flex-basis: calc(100% / 3);
-    
 }
 
 .cards {
@@ -101,7 +99,22 @@ main {
 
 .cards > img {
     height: 650px;
+    position: relative;
 }
+
+
+.overlay {
+    display: none;
+}
+
+.cards:hover .overlay {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
 
 .discount {
     position: absolute;
@@ -140,6 +153,7 @@ main {
     right: 0;
     padding: 5px 18px;
 }
+
 
 
 /* footer  */
