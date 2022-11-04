@@ -10,7 +10,7 @@
 /* Utils  */
 
 .container {
-    max-width: 1100px;
+    max-width: 75%;
     margin: 0 auto;
     display: flex;
     gap: 20px;
@@ -66,23 +66,40 @@ main {
 
 .col {
     min-height: 50px;
-    width: calc(100% / 3);
+    flex-basis: calc(100% / 3);
     
 }
 
 .cards {
-    display: flex;
-    flex-direction: row;
-    width: calc(100% / 3);
+    position: relative;
 }
 
 
 .cards > img {
-    display: flex;
-    height: 500px;
+    height: 650px;
 }
 
+.discount {
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    background-color: #ff0000;
+    color: #fff;
+    padding: 7.5px 12.5px;
+    font-weight: bold;
+    font-size: 13px;
+}
 
+.sus {
+    position: absolute;
+    bottom: 50px;
+    left: 60px;
+    background-color: green;
+    color: #fff;
+    padding: 7.5px 12.5px;
+    font-weight: bold;
+    font-size: 13px;
+}
 
 
 /* footer  */
