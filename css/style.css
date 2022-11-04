@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 /* Utils  */
@@ -14,7 +15,26 @@
 
 /* Header  */
 
+header {
+    height: 80px;
+    background-color: #ff6900;
+    color: #ffff;
+    font-weight: bold;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    
+}
 
+.navbar {
+    width: 75%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    
+}
 
 /* Main-cards  */
 
