@@ -21,6 +21,17 @@
     display: flex;
 }
 
+.price {
+    color: #ff0000;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.old-price {
+    text-decoration: line-through;
+    font-size: 15px;
+}
+
 /* Generics */
 
 body {
@@ -91,7 +102,7 @@ main {
 
 .discount {
     position: absolute;
-    bottom: 50px;
+    bottom: 100px;
     left: 0;
     background-color: #ff0000;
     color: #fff;
@@ -101,7 +112,7 @@ main {
 }
 
 .sus {
-    bottom: 50px;
+    bottom: 100px;
     position: absolute;
     background-color: green;
     color: #fff;
