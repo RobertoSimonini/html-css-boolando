@@ -105,17 +105,20 @@ main {
 }
 
 
-.overlay {
+.cards > .overlay {
     display: none;
 }
 
 .cards:hover .overlay {
     display: inline-block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
+    
 }
+
+.cards:hover .front {
+    display: none;
+}
+
+
 
 
 
